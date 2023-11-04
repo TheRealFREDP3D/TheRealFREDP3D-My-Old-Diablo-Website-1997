@@ -1,0 +1,2 @@
+Lets you view other players
+stats,gold,level,etc,etc. 

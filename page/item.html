@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!-- *************************************************
+        EDITEUR WEBEXPERT
+        DATE DE CREATION: 02/01/98
+        DERNIERE MODIFICATION: 24/01/99
+************************************************** -->
+<HTML>
+<HEAD>
+<TITLE>ITEM</TITLE>
+<META NAME="Author" CONTENT="Fr&eacute;d&eacute;rick Pellerin et Xavier L.Perrault">
+<META NAME="Description" CONTENT="">
+</HEAD>
+<BODY BGCOLOR="#000000" TEXT="#FF0000" LINK="#00FF00" VLINK="#800080" ALINK="#008000">
+
+<FORM>
+<CENTER>
+<SELECT NAME="liste1" SIZE=1>
+  <OPTION SELECTED VALUE="">-------- Choisissez le type d'item --------
+  <OPTION VALUE="../arme/arme.html">Armes
+  <OPTION VALUE="../armure/armures.html">Armures
+  <OPTION VALUE="../potion/potions.html">Potions
+</SELECT><BR>
+<INPUT TYPE="button" VALUE="OK" onClick="if (form.liste1.selectedIndex != 0) location = form.liste1.options[form.liste1.selectedIndex].value; else alert('Veuillez faire un choix au menu.')">
+</CENTER></FORM>
+
+
+
+<MAP NAME=email>  
+<AREA SHAPE="RECT" COORDS="0,0,60,60" HREF="mailto:diablo@mygale.org">
+</MAP>
+<CENTER><IMG SRC="../image/EMAIL.gif" BORDER=0 WIDTH=50 HEIGHT=50 USEMAP="#email"></CENTER></CENTER>
+
+</BODY>
+</HTML>
+       
